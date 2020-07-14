@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Megan June';
+    src: url('/fonts/Megan_June.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins_Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#landing {
+    background-image: url(/images/index/kids-shadow.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#landing-inner {
+    padding-top: 30vh;
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+    font-family: "SignPainter";
+}
+
+#landing p, button {
+    font-family: "Megan June";
+    font-size: 2em;
+    color: white;
+}
+
+button {
+    border-radius: 10px;
+    border: 3px solid white;
+    background-color: transparent;
+    padding: 5px 30px;
+}
+
+#landing h1, #landing p, #landing button {
+    margin: 20px 0px 20px 0px;
+}
+
+figcaption {
+    font-family: "Megan June";
+    font-size: 1.5em !important;
+}
+
+#index-goals figcaption {
+    color: #D0021B;
+}
+
+/* Image sizes */
+
+#index-cert img {
+    max-width: 125px;
+    max-height: 125px;
+}
+
+#index-goals img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* Desktop */
+
+@media (min-width: 768px) {
+
+    main section img {
+        max-width: 400px;
+    }
+
+}
