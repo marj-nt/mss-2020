@@ -12,6 +12,23 @@
     font-style: normal;
 }
 
+/* Floating animation */
+
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+
 #landing {
     background-image: url(/images/index/kids-shadow.jpg);
     width: 100%;
@@ -23,6 +40,7 @@
 
 #landing-inner {
     padding-top: 30vh;
+    animation: float 6s ease-in-out infinite;
 }
 
 h1 {
