@@ -32,6 +32,12 @@ h2 {
     text-align: left;
 }
 
+.shadow-header {
+    width: 100%;
+    height: 20vh;
+    background-image: url(/images/kids-shadow.jpg);
+}
+
 img {
     width: 100%;
     margin: 20px 0px 20px 0px;

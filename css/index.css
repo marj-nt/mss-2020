@@ -30,7 +30,7 @@
 }
 
 #landing {
-    background-image: url(/images/index/kids-shadow.jpg);
+    background-image: url(/images//kids-shadow.jpg);
     width: 100%;
     height: 100vh;
     background-size: 100% 100%;
@@ -40,6 +40,10 @@
 
 #landing-inner {
     padding-top: 30vh;
+    
+}
+
+#landing-inner h1, #landing-inner p {
     animation: float 6s ease-in-out infinite;
 }
 
