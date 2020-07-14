@@ -75,4 +75,8 @@ section {
         display: block;
     }
 
+    .hide-lg {
+        display: none;
+    }
+
 }

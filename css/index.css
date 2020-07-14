@@ -64,6 +64,12 @@ figcaption {
     max-height: 125px;
 }
 
+#index-cert-mob img  {
+    max-width: 90px;
+    max-height: 90px;
+    margin-left: 5px;
+}
+
 #index-goals img {
     max-width: 150px;
     max-height: 150px;
