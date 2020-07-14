@@ -1,0 +1,73 @@
+h2 {
+    padding: 5px 0px;
+}
+
+.input-container {
+    padding: 10px 0px;
+}
+
+  /* Style the form icons */
+.icon {
+    padding: 10px;
+    background: #44B2E3;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+input, select, textarea {
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+}
+  
+input:focus {
+    border: 2px solid #44B2E3;
+}
+
+textarea::placeholder {
+    padding-left: 5px;
+}
+
+main section button {
+    width: 200px;
+    background: #44B2E3;
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    padding: 10px 30px;
+    font-family: "Megan June";
+    font-size: 1.5em;
+}
+
+iframe {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+
+    .wrapper {
+        width: 100%;
+        padding: 20px 0px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgb(245, 223, 191) 60%, #44B2E3 40%);
+    }
+
+    main section .col-md-6 {
+       
+    }
+    
+    main section .col-md-4 {
+        text-align: right;
+        left: 50px;
+    }
+
+}
