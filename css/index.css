@@ -29,6 +29,10 @@
 	}
 }
 
+section {
+    padding: 50px 0px;
+}
+
 #landing {
     background-image: url(/images//kids-shadow.jpg);
     width: 100%;
