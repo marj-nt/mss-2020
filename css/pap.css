@@ -9,6 +9,7 @@
 
 #policies-main h4 {
     font-family: "Megan June";
+    font-size: 1.7em;
     color: #D0021B;
 }
 
@@ -39,6 +40,8 @@
     box-shadow: 2px 2px 4px grey;
     text-align: left;
     font-family: "Poppins";
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Skills */
