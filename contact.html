@@ -44,7 +44,7 @@
                                         
                                 <div class="form-bottom">
                                     
-                                    <form action="contactform.php" method="post">
+                                    <form>
 
                                         <div class="input-container">
                                             <i class="fa fa-user icon"></i>
@@ -61,9 +61,12 @@
                                             <input type="tel" placeholder="Phone ***-***-***" name="phone">
                                         </div>
 
-                                        <textarea name="messagebody" placeholder="Leave us your questions or reviews!"></textarea>
+                                        <div class="input-container">
+                                            <i class="fas fa-pencil-alt icon"></i>
+                                            <textarea name="messagebody" placeholder="Leave us your questions or reviews!"></textarea>
+                                        </div>
                                             
-                                        <button>Send Message</button>
+                                        <button onclick="submitForm()" class="hvr-grow">Send Message</button>
 
                                     </form>
 
@@ -119,5 +122,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     
+    <!-- Submit Contact Form -->
+    <script>
+        function submitForm() {
+          alert("Thank you for your message!");
+        }
+    </script>
+
   </body>
 </html>

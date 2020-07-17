@@ -8,12 +8,23 @@ h2 {
 
   /* Style the form icons */
 .icon {
+    position: relative;
     padding: 10px;
     background: #44B2E3;
     color: white;
     min-width: 50px;
     text-align: center;
+    height: 100%;
 }
+
+form .input-container:nth-of-type(4) {
+    height: 150px;
+ }
+
+ form .input-container:nth-of-type(4) .icon {
+    top: -85px;
+    height: 95px;
+ }
 
 input, select, textarea {
     width: 80%;
@@ -21,19 +32,20 @@ input, select, textarea {
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
+    box-shadow: 2px 2px 2px rgba(141, 187, 255, 0.5)
 }
 
 textarea {
-    width: 90%;
-    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
 }
   
 input:focus {
     border: 2px solid #44B2E3;
 }
 
-textarea::placeholder {
-    padding-left: 5px;
+input::placeholder, textarea::placeholder {
+    padding-left: 10px;
 }
 
 main section button {
@@ -43,13 +55,19 @@ main section button {
     border: none;
     border-radius: 10px; 
     padding: 10px 30px;
-    font-family: "Megan June";
-    font-size: 1.5em;
+    margin: 20px 0px 30px 0px;
+    font-family: "Poppins";
+    font-size: 1.2em;
+    box-shadow: 2px 2px 2px rgba(141, 187, 255, 0.5)
 }
 
 iframe {
     width: 90%;
     margin: 0 auto;
+}
+
+img {
+    max-width: 50px;
 }
 
 @media (min-width: 768px) {
@@ -59,10 +77,6 @@ iframe {
         padding: 20px 0px;
         border-radius: 10px;
         background: linear-gradient(90deg, rgb(245, 223, 191) 60%, #44B2E3 40%);
-    }
-
-    main section .col-md-6 {
-       
     }
     
     main section .col-md-4 {
