@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins_Mediumotf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 /* Grow */
 .hvr-grow {
     display: inline-block;

@@ -2,6 +2,10 @@ h2 {
     padding: 5px 0px;
 }
 
+.wrapper .col-md-6 {
+    padding: 20px 0px;
+}
+
 .input-container {
     padding: 10px 0px;
 }
@@ -55,15 +59,17 @@ main section button {
     border: none;
     border-radius: 10px; 
     padding: 10px 30px;
-    margin: 20px 0px 30px 0px;
+    margin: 20px 0px;
     font-family: "Poppins";
     font-size: 1.2em;
-    box-shadow: 2px 2px 2px rgba(141, 187, 255, 0.5)
+    box-shadow: 2px 2px 2px rgba(141, 187, 255, 0.5) !important;
 }
 
 iframe {
-    width: 90%;
+    width: 100%;
+    height: 300px;
     margin: 0 auto;
+    border: 10px solid white !important;
 }
 
 img {
@@ -77,11 +83,16 @@ img {
         padding: 20px 0px;
         border-radius: 10px;
         background: linear-gradient(90deg, rgb(245, 223, 191) 60%, #44B2E3 40%);
+        box-shadow: 2px 2px 2px rgba(111, 147, 201, 0.5) !important;
     }
     
     main section .col-md-4 {
         text-align: right;
         left: 50px;
+    }
+
+    .wrapper .col-md-6 {
+        padding: 0px;
     }
 
 }
