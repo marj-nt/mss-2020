@@ -7,14 +7,14 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('/mss-2020/fonts/Poppins_Regular.otf') format('opentype');
+    src: url('./mss-2020/fonts/Poppins_Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Poppins';
-    src: url('/mss-2020/fonts/Poppins_Mediumotf') format('opentype');
+    src: url('./mss-2020/fonts/Poppins_Mediumotf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -60,7 +60,7 @@ h2 {
 .shadow-header {
     width: 100%;
     height: 20vh;
-    background-image: url(/mss-2020/images/kids-shadow.jpg);
+    background-image: url(./mss-2020/images/kids-shadow.jpg);
 }
 
 img {
