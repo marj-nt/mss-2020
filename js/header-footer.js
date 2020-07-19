@@ -1,7 +1,7 @@
 $(function(){
-    $("#header").load("/mss-2020/header.html"); 
+    $("#header").load("../header.html"); 
 });
 
 $(function(){
-    $("#footer").load("/mss-2020/footer.html"); 
+    $("#footer").load("../footer.html"); 
 });
