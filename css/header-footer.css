@@ -14,7 +14,7 @@ nav img {
 nav {
     font-family: "Megan June";
     font-size: 1.25em;
-    background-color: rgba(163, 237, 255, 0.75) !important;
+    background-color: rgba(163, 237, 255, 1) !important;
 }
 
 /* Footer */
@@ -44,6 +44,10 @@ footer div {
 /* Desktop */
 
 @media (min-width: 768px) {
+
+    nav {
+        background-color: rgba(163, 237, 255, 0.75) !important;
+    }
 
 }
 
