@@ -90,6 +90,10 @@ figcaption {
     color: #D0021B;
 }
 
+#index-cert figcaption, #index-cert-figcaption {
+    font-size: 1.5em !important;
+}
+
 /* Image sizes */
 
 #index-cert img {
