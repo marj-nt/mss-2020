@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Megan June';
-    src: url('/fonts/Megan_June.otf') format('opentype');
+    src: url('fonts/Megan_June.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Poppins';
-    src: url('/fonts/Poppins_Regular.otf') format('opentype');
+    src: url('fonts/Poppins_Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -34,7 +34,7 @@ section {
 }
 
 #landing {
-    background-image: url(/images//kids-shadow.jpg);
+    background-image: url(images/kids-shadow.jpg);
     width: 100%;
     height: 100vh;
     background-size: 100% 100%;
