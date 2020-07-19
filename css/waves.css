@@ -5,11 +5,13 @@ body {
 }
 
 .waves {
-  /* position: relative; */
-  /* transform: translateY(11vh); */
+
+  /* transform: translateY(7vh); */
   width: 100%;
   height: 10vh;
-  /* margin-bottom: -7px; */
+  /* margin-bottom: 0px; */
+  position: absolute;
+  bottom: 0px;
   /*Fix for safari gap*/
   min-height: 100px;
   max-height: 150px;
@@ -49,17 +51,6 @@ body {
   }
 }
 
-/*Shrinking for mobile*/
-@media (max-width: 768px) {
-  .waves {
-    height: 40px;
-    min-height: 40px;
-    transform: translateY(0px);
-  }
-  .content {
-    height: 30vh;
-  }
-  h1 {
-    font-size: 24px;
-  }
+@media (min-width: 768px) {
+
 }

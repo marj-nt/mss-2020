@@ -40,26 +40,28 @@ section {
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-#landing-inner {
-    padding-top: 30vh;
-    
+    position: relative;
+    resize: both;
+    display: block;
 }
 
 #landing-inner h1, #landing-inner p {
     animation: float 6s ease-in-out infinite;
 }
 
+#landing-inner {
+    margin-top: 30vh;
+}
+
 h1 {
-    font-size: 4em;
+    font-size: 3em;
     color: white;
     font-family: "SignPainter";
 }
 
 #landing p, button {
     font-family: "Megan June";
-    font-size: 2em;
+    font-size: 1.5em;
     color: white;
 }
 
@@ -72,6 +74,11 @@ button {
 
 #landing h1, #landing p, #landing button {
     margin: 20px 0px 20px 0px;
+}
+
+#landing-inner p {
+    width: 90%;
+    margin: 0 auto;
 }
 
 figcaption {
@@ -107,6 +114,14 @@ figcaption {
 
     main section img {
         max-width: 400px;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+    
+    #landing p, button {
+        font-size: 2em;
     }
 
 }
