@@ -17,18 +17,10 @@ h2 {
     background: #44B2E3;
     color: white;
     min-width: 50px;
+    max-width: 50px;
     text-align: center;
     height: 100%;
 }
-
-form .input-container:nth-of-type(4) {
-    height: 150px;
- }
-
- form .input-container:nth-of-type(4) .icon {
-    top: -85px;
-    height: 95px;
- }
 
 input, select, textarea {
     width: 80%;
@@ -40,16 +32,33 @@ input, select, textarea {
 }
 
 textarea {
-    min-height: 100px;
-    max-height: 100px;
+    height: 100px;
 }
   
 input:focus {
     border: 2px solid #44B2E3;
 }
 
-input::placeholder, textarea::placeholder {
+input, textarea, select {
     padding-left: 10px;
+}
+
+#form-jump .input-container:nth-of-type(5) {
+    max-height: 165px;
+    position: relative;
+}
+
+#form-jump .input-container:nth-of-type(5) .icon {
+    top: -85px;
+    height: 95px;
+}
+
+#form-jump .input-container:nth-of-type(5) label.error {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0;
+    bottom: 10px;
 }
 
 main section button {
@@ -65,6 +74,12 @@ main section button {
     box-shadow: 2px 2px 2px rgba(141, 187, 255, 0.5) !important;
 }
 
+label.error {
+    color: #D00125;
+}
+
+/* Right side */
+
 iframe {
     width: 100%;
     height: 300px;
@@ -74,6 +89,58 @@ iframe {
 
 img {
     max-width: 50px;
+}
+
+/* Modal */
+
+#modal-outer {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(210, 240, 250, 0.5);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#modal-inner {
+    background-color: white;
+    position: fixed;
+    width: 90%;
+    height: 50vh;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    display: none;
+    padding-top: 70px;
+}
+
+#modal-inner h3 {
+    font-family: "Megan June";
+    color: #D00125;
+    margin: 10px 0px;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+path {
+    stroke: none; 
+    fill: #45B3E4;
+}
+
+#svg-outer {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 @media (min-width: 768px) {
@@ -93,6 +160,14 @@ img {
 
     .wrapper .col-md-6 {
         padding: 0px;
+    }
+
+    #modal-inner {
+        width: 50%;
+        height: 50vh;
+        border-radius: 20px;
+        display: none;
+        padding-top: 70px;
     }
 
 }
