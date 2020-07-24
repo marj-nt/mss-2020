@@ -48,21 +48,21 @@ $(function() {
       },
       // Make sure the form is submitted to the destination defined
       // in the "action" attribute of the form when valid
-    //   submitHandler: function(form) {
-    //     $(form).submit(function(e){
-    //       e.preventDefault();
-    //     });
+      submitHandler: function(form) {
+        $(form).submit(function(e){
+          e.preventDefault();
+        });
         
-    //       $("#modal-outer").fadeIn();
-    //       $("#modal-inner").fadeIn();
-    //       $('.form-bottom button').prop('disabled', true);
-    //       setTimeout(function(){ 
-    //           $("#modal-outer").fadeOut();
-    //           $("#modal-inner").fadeOut();
-    //           $('input').val('');
-    //           $('textarea').val('');
-    //       }, 3000);
-    //       $('.form-bottom button').prop('disabled', false);
-    //   }
-    // });
+          $("#modal-outer").fadeIn();
+          $("#modal-inner").fadeIn();
+          $('.form-bottom button').prop('disabled', true);
+          setTimeout(function(){ 
+              $("#modal-outer").fadeOut();
+              $("#modal-inner").fadeOut();
+              $('input').val('');
+              $('textarea').val('');
+          }, 3000);
+          $('.form-bottom button').prop('disabled', false);
+      }
+    });
   });
