@@ -44,7 +44,7 @@
                                         
                                 <div id="form-jump" class="form-bottom">
 
-                                    <form name="contact">
+                                    <form name="contact" action="contact-form.php" method="post">
                                     
                                     <div class="input-container">
                                         <i class="fa fa-user icon"></i>
@@ -63,7 +63,7 @@
 
                                     <div class="input-container">
                                         <i class="fa fa-question icon"></i>
-                                        <select>
+                                        <select name="subject">
                                             <option value="general">General</option>
                                             <option value="resched">Rescheduling/Cancellation</option>
                                             <option value="review">Review</option>
@@ -76,7 +76,7 @@
                                         <textarea type="text" placeholder="Leave us your questions or reviews!" name="message"></textarea>
                                     </div>
                                         
-                                    <button type="submit" class="hvr-grow">Send Message</button>
+                                    <button type="submit" name="submit" class="hvr-grow">Send Message</button>
 
                                     </form>
 
