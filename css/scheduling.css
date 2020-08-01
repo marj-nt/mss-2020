@@ -52,6 +52,12 @@ section button {
     color: #9e0012;
 }
 
+.info {
+    background: linear-gradient(to right bottom,
+    #F8FCFE 50%, #EAF8FC 50%);
+    width: 100vw;
+}
+
 @media (min-width: 768px) {
 
     .wrapper h3, .wrapper p {
