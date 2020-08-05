@@ -31,6 +31,10 @@ input, select, textarea {
     box-shadow: 2px 2px 2px rgba(141, 187, 255, 0.5)
 }
 
+select {
+    color: #777777;
+}
+
 textarea {
     height: 100px;
 }
@@ -71,7 +75,7 @@ main section button {
     margin: 20px 0px;
     font-family: "Poppins";
     font-size: 1.2em;
-    text-shadow: 2px 2px 4px #44B2E3;
+    text-shadow: 2px 2px 4px #1b4355;
     box-shadow: 2px 2px 2px rgba(141, 187, 255, 0.5) !important;
 }
 
@@ -172,3 +176,15 @@ path {
     }
 
 }
+
+@media only screen and (max-device-width: 480px) {
+    select {
+        background: -webkit-linear-gradient(white);
+        color: #777777;
+        box-shadow: 2px 2px 2px rgba(141, 187, 255, 0.5) !important;
+    }
+
+    option {
+        color: #777777;
+    }
+    }
