@@ -40,8 +40,15 @@
     box-shadow: 2px 2px 4px grey;
     text-align: left;
     font-family: "Poppins";
+    color: #133A68;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#programs-main .card b {
+    font-family: "Megan June";
+    font-size: 1.7em;
+    color: #D0021B;
 }
 
 /* Skills */
