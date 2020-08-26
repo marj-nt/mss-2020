@@ -73,6 +73,11 @@ p {
     color: #133A68;
     padding: 15px 0px;
     font-size: 18px;
+    line-height: 1.8em;
+}
+
+ul {
+    font-size: 18px;
 }
 
 .hide-mobile {

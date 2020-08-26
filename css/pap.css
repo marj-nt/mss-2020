@@ -10,6 +10,7 @@
 #policies-main h4 {
     font-family: "Megan June";
     font-size: 1.7em;
+    letter-spacing: 1.2px;
     color: #D0021B;
 }
 
@@ -32,23 +33,52 @@
     background: none;
 }
 
+.card-body .col-md-6 .row:nth-child(2) .col {
+    padding: 0px 40px;
+}
+
 .card-body {
     width: 100%;
     border: 5px solid;
     border-image-source: linear-gradient(180deg, #44B2E3, rgb(137, 214, 247));
     border-image-slice: 1;
     box-shadow: 2px 2px 4px grey;
+
     text-align: left;
     font-family: "Poppins";
+    font-size: 16px;
     color: #133A68;
+    line-height: 1.8em;
+
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 40px 50px;
+
+    background: linear-gradient(white, white, #F7FCFE);
+}
+
+.card-body img {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 #programs-main .card b {
     font-family: "Megan June";
     font-size: 1.7em;
+    letter-spacing: 1.5px;
     color: #D0021B;
+}
+
+.card-body a {
+    color: #D0021B;
+    border-bottom: 1px solid #D0021B;
+    text-decoration: #D0021B;
+}
+
+.card-body b {
+    color: #D0021B;
+    font-weight: normal;
 }
 
 /* Skills */
@@ -103,8 +133,10 @@
 
 #info-1 span {
     color: #133A68;
-    margin-top: 20px;
-    margin-bottom: 20px;
+}
+
+#info-1 p:first-child {
+    padding: 0px;
 }
 
 #info-2 span {

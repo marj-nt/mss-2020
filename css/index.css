@@ -76,6 +76,11 @@ button {
     margin: 20px 0px 20px 0px;
 }
 
+#index-welcome img {
+    border: 7px solid white;
+    box-shadow: 2px 2px 4px rgb(253, 227, 177);
+}
+
 #landing-inner p {
     width: 90%;
     margin: 0 auto;
