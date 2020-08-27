@@ -72,7 +72,7 @@ main section button {
     border: none;
     border-radius: 10px; 
     padding: 10px 30px;
-    margin: 20px 0px;
+    margin-bottom: 50px;
     font-family: "Poppins";
     font-size: 1.2em;
     text-shadow: 2px 2px 4px #708f9e;
@@ -154,7 +154,9 @@ path {
         width: 100%;
         padding: 20px 0px;
         border-radius: 10px;
-        background: linear-gradient(90deg, rgb(245, 223, 191) 60%, #44B2E3 40%);
+        /* background: linear-gradient(90deg, rgb(245, 223, 191) 60%, #44B2E3 40%); */
+        background-image: url('../images/panel-bg-contact.jpg');
+        background-size: auto 100%;
         box-shadow: 2px 2px 2px rgba(111, 147, 201, 0.5) !important;
     }
     
@@ -164,6 +166,7 @@ path {
     }
 
     .wrapper .col-md-6 {
+        
         padding: 0px;
     }
 

@@ -68,7 +68,7 @@ button[aria-expanded="true"] {
     color: #133A68;
     line-height: 1.8em;
 
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
     padding: 40px 50px;
 
@@ -79,7 +79,7 @@ button[aria-expanded="true"] {
 }
 
 .card-body img {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 40px;
 }
