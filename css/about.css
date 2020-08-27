@@ -28,7 +28,13 @@ h2 {
 }
 
 .panel-top {
-    background: linear-gradient(180deg, #44B2E3 75%, white 0%);
+    /* background: linear-gradient(180deg, #44B2E3 75%, white 0%); */
+    text-align: center;
+
+    background-image: url('../images/panel-bg-about.jpg');
+    background-size: contain;
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
     text-align: center;
 }
 
