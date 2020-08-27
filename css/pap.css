@@ -1,4 +1,4 @@
-#programs-main img, #policies-main img {
+.program-prices-top img, .policies-top img {
     max-width: 150px;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .program-prices-outer, .policies-outer {
-    margin: 10px 40px 10px 40px;
+    margin: 10px 40px;
     padding: 20px 0px 30px 0px;
     background: white;
     position: relative;
@@ -24,8 +24,25 @@
 }
 
 .program-prices-top, .policies-top {
-    background: linear-gradient(180deg, #44B2E3 75%, white 0%);
+    /* background: linear-gradient(180deg, #44B2E3 75%, white 0%); */
+
+    background-image: url('../images/panel-bg.jpg');
+    background-size: contain;
+    margin-bottom: 20px;
     text-align: center;
+}
+
+.program-prices-bottom, .program-prices-bottom button {
+    color: black;
+}
+
+#skills-main p {
+    color: grey;
+}
+
+/* Highlight active button */
+button[aria-expanded="true"] {
+    color: #D0021B !important;
 }
 
 .expand {
@@ -43,6 +60,7 @@
     border-image-source: linear-gradient(180deg, #44B2E3, rgb(137, 214, 247));
     border-image-slice: 1;
     box-shadow: 2px 2px 4px grey;
+    
 
     text-align: left;
     font-family: "Poppins";
@@ -55,10 +73,13 @@
     padding: 40px 50px;
 
     background: linear-gradient(white, white, #F7FCFE);
+    background-image: url('../images/wavy-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card-body img {
-    max-width: 300px;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 40px;
 }
@@ -77,7 +98,7 @@
 }
 
 .card-body b {
-    color: #D0021B;
+    color: #9e0012;
     font-weight: normal;
 }
 
@@ -146,3 +167,18 @@
 .body-top-ocean {
     padding-bottom: 50px;
 }
+
+/* Desktop */
+
+@media (min-width: 768px) {
+
+    .program-prices-top, .policies-top {
+
+        background-image: url('../images/panel-bg.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+
+        margin-bottom: 0px;
+
+    }

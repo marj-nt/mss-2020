@@ -7,6 +7,7 @@
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(141, 187, 255, 0.5);
     padding: 20px;
+    
 }
 
 p:first-of-type {
@@ -14,8 +15,9 @@ p:first-of-type {
     margin: 0 auto;
 }
 
-a {
+section a {
     color: #D0021B;
+    border-bottom: 1px solid #D0021B;
 }
 
 a:hover {

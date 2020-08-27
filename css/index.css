@@ -78,7 +78,7 @@ button {
 
 #index-welcome img {
     border: 7px solid white;
-    box-shadow: 2px 2px 4px rgb(253, 227, 177);
+    box-shadow: 2px 2px 4px rgba(255, 222, 161, 0.5);
 }
 
 #landing-inner p {
@@ -104,6 +104,7 @@ figcaption {
 #index-cert img {
     max-width: 125px;
     max-height: 125px;
+    animation: float 6s ease-in-out infinite;
 }
 
 #index-cert-mob img  {
