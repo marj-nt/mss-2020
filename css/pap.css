@@ -52,7 +52,8 @@ button[aria-expanded="true"] {
 }
 
 .card-body {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     border: 5px solid;
     border-image-source: linear-gradient(180deg, #44B2E3, rgb(137, 214, 247));
     border-image-slice: 1;
@@ -178,6 +179,10 @@ button[aria-expanded="true"] {
 
         margin-bottom: 0px;
 
+    }
+
+    .card-body {
+        width: 100%;
     }
 
     .card-body img {
