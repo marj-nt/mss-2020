@@ -24,10 +24,6 @@
     border-radius: 15px;
 }
 
-.program-prices-outer button, .policies-outer button {
-    font-size: 20px;
-}
-
 .program-prices-top, .policies-top {
     /* background: linear-gradient(180deg, #44B2E3 75%, white 0%); */
 
