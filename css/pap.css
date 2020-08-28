@@ -21,6 +21,11 @@
     position: relative;
     box-shadow: 2px 2px 5px #d1d1d1;
     font-family: "Poppins";
+    border-radius: 15px;
+}
+
+.program-prices-outer button, .policies-outer button {
+    font-size: 20px;
 }
 
 .program-prices-top, .policies-top {
@@ -30,10 +35,6 @@
     background-size: contain;
     margin-bottom: 20px;
     text-align: center;
-}
-
-.program-prices-bottom, .program-prices-bottom button {
-    color: black;
 }
 
 #skills-main p {
@@ -79,7 +80,7 @@ button[aria-expanded="true"] {
 }
 
 .card-body img {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 40px;
 }
@@ -181,4 +182,8 @@ button[aria-expanded="true"] {
 
         margin-bottom: 0px;
 
+    }
+
+    .card-body img {
+        width: 80%;
     }

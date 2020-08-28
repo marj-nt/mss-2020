@@ -14,23 +14,33 @@ function cycleGoals() {
     var descr = $('#index-goals p');
 
     setInterval(function(){
+
+        word.addClass('puff-out-center');
+        pic.addClass('puff-out-center');
+        descr.addClass('puff-out-center');
         
 
         word.fadeOut(function(){
-            word.html(words[i]).fadeIn();
+            
+            word.html(words[i]).fadeIn(1000);
+            word.removeClass('puff-out-center');
         });
 
         pic.fadeOut(function() {
-            pic.attr('src', pics[i]).fadeIn();
+            
+            pic.attr('src', pics[i]).fadeIn(1000);
+            pic.removeClass('puff-out-center');
         });
 
         descr.fadeOut(function(){
-            descr.html(descrs[i]).fadeIn();
+            
+            descr.html(descrs[i]).fadeIn(1000);
+            descr.removeClass('puff-out-center');
         });
 
         i=(i+1)%words.length;
         
-    }, 3000);
+    }, 4000);
 
 }
 
