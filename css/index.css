@@ -40,6 +40,7 @@ section {
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     position: relative;
     resize: both;
     display: block;
@@ -105,6 +106,23 @@ figcaption {
     max-width: 125px;
     max-height: 125px;
     animation: float 6s ease-in-out infinite;
+}
+
+#index-cert .row:first-of-type .col {
+    width: 60% !important;
+    border-bottom: rgb(19, 58, 104, 0.2) 2px solid;
+    margin-bottom: 2rem;
+}
+
+#index-cert .row:first-of-type p {
+    font-family: "Megan June";
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+
+.secondary {
+    color: #4c4c4c;
 }
 
 #index-cert-mob img  {
